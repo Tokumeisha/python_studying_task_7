@@ -84,62 +84,62 @@ or press 0 to quit
 
 while request != 0:
     if request == 1:
-        number = int(input('''
+        number = float(input('''
 Inches to Centimeters
 Enter any number: '''))
         in_to_cm(number)
     elif request == 2:
-        number = int(input('''
+        number = float(input('''
 Centimeters to Inches
 Enter any number: '''))
         cm_to_in(number)
     elif request == 3:
-        number = int(input('''
+        number = float(input('''
 Miles to Kilometers
 Enter any number: '''))
         mile_to_km(number)
     elif request == 4:
-        number = int(input('''
+        number = float(input('''
 Kilometers to Miles
 Enter any number: '''))
         km_to_mile(number)
     elif request == 5:
-        number = int(input('''
+        number = float(input('''
 Pounds to Kilograms
 Enter any number: '''))
         lb_to_kg(number)
     elif request == 6:
-        number = int(input('''
+        number = float(input('''
 Kilograms to Pounds
 Enter any number: '''))
         kg_to_lb(number)
     elif request == 7:
-        number = int(input('''
+        number = float(input('''
 Ounces to Grams
 Enter any number: '''))
         oz_to_gm(number)
     elif request == 8:
-        number = int(input('''
+        number = float(input('''
 Grams to Ounces
 Enter any number: '''))
         gm_to_oz(number)
     elif request == 9:
-        number = int(input('''
+        number = float(input('''
 Gallons to Liters
 Enter any number: '''))
         gl_to_ltr(number)
     elif request == 10:
-        number = int(input('''
+        number = float(input('''
 Liters to Gallons
 Enter any number: '''))
         ltr_to_gl(number)
     elif request == 11:
-        number = int(input('''
+        number = float(input('''
 Pints to Liters
 Enter any number: '''))
         pt_to_ltr(number)
     elif request == 12:
-        number = int(input('''
+        number = float(input('''
 Liters to Pints
 Enter any number: '''))
         ltr_to_pt(number)
@@ -150,3 +150,4 @@ Enter any number: '''))
     request = int(input('''
 Enter a number from 1 to 12, or 0 to quit:
 '''))
+
